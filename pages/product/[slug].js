@@ -83,7 +83,7 @@ const ProductDetails = ({ product, products}) => {
 
     {/* PRODUCT SIZE RANGE START */}
     <div className="mb-10">
-      <div className="flex justify-between mb-2">
+      <div className="">
         <div className="text-md font-semibold">
           Select Size
         </div>

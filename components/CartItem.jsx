@@ -14,7 +14,7 @@ const CartItem = ({ data }) => {
             val: key === "quantity" ? parseInt(e.target.value) : e.target.value,
             id:data.id,
          };
-         dispatch(updateCart(payload))
+         dispatch(updateCart(payload));
     }
 
     return (
