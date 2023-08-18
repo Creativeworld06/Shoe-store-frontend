@@ -81,7 +81,7 @@ const CartItem = ({ data }) => {
                             <div className="font-semibold">Quantity:</div>
                             <select className="hover:text-black" onChange={(e)=>
                             updateCartItem(e, "quantity")}>
-                                {Array.from({length: 10}, (_, i) => i + 1).map((q,i) =>{
+                                {Array.from({length: 10}, (_, i) => i + 1).map((q,i) => {
                                     return(
                                         <option 
                                         key={i} 

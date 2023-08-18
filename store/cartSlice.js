@@ -12,7 +12,7 @@ export const cartSlice = createSlice({
             );
             if (item) {
                 item.quantity++;
-                item.attributes.price = item.oneQuantityPrice * item.quantity;
+                item.attributes.price = item.oneQuantityProce * item.quantity;
             } else {
                 state.cartItems.push({ ...action.payload, quantity: 1 });
             }
@@ -22,7 +22,7 @@ export const cartSlice = createSlice({
                 if (p.id === action.payload.id) {
                     if (action.payload.key === "quantity") {
                         p.attributes.price =
-                            p.oneQuantityPrice * action.payload.val;
+                            p.oneQuantityProce * action.payload.val;
                     }
                     return { ...p, [action.payload.key]: action.payload.val };
                 }
