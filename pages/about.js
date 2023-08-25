@@ -29,8 +29,8 @@ function About() {
         </Disclosure.Button>
         <div className="shadow-lg p-6 w-1/2 h-screen bg-white z-20 fixed top-0 -left-96 lg:left-0 lg:w-60  peer-focus:left-0 peer:transition ease-out delay-150 duration-200 ">
           <div className="flex flex-col justify-start item-center">
-            <img src="popo1.svg" className="ml-12 w-[100px]" ></img>
-            <div className=" my-4 border-b border-gray-100 pb-4">
+            <img src="logo.webp" className="ml-12 w-[150px]" ></img>
+            <div className="bottom-10 my-4 border-b border-gray-100 pb-4">
               <div className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                 <FaShoePrints className="text-2xl text-gray-600 group-hover:text-white " />
                 <Link className="text-base text-gray-800 group-hover:text-white font-semibold " href="http://localhost:3000/category/jordan">
