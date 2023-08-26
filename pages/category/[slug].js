@@ -6,6 +6,7 @@ import useSWR from "swr";
 import { useRouter } from "next/router"; 
 const maxResult = 3;
 
+const c = category?.data?.[0]?.attributes;
 const Category = ({category, products, slug}) => {
     const [pageIndex, setPageIndex] = useState(1)
     const {query} = useRouter();
